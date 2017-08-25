@@ -1,0 +1,24 @@
+locale: "en-US"
+title: Gustavo Walbon # Title of your site
+url: "https://walbon.github.io/" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+google_analytics_key: ""
+
+# Default description in social shares for the jekyll-seo-tag gem
+description: > # this means to ignore newlines until "baseurl:"
+  Gustavo  Walbon writes somes articles to be share with you, enjoy them. :)
+
+# Author details for the jekyll-seo-tag gem
+author:
+  name: Gustavo Walbon
+  email: 
+  twitter: gustavowalbon# twitter username without the @ symbol
+
+permalink: pretty
+
+gems:
+  - "jekyll-feed"
+  - "jekyll-seo-tag"
+  - "jekyll-paginate"
+  - "jekyll-sitemap"
+

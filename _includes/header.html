@@ -1,0 +1,10 @@
+<p>CATEGORIES:
+{% for cat in site.categories %}
+<BR>- <a href="/categories/{{ cat[0] }}">{{ cat[0] }}</a>
+{% endfor %}
+</p>
+
+<p>TAGS:
+{% for tag in site.tags %}<a href="{{ baseurl }}/tags/[{{ tag[0] }}">{{ tag[0] }}</a>, {% endfor %}
+</p>
+
