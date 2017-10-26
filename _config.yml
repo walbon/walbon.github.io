@@ -1,10 +1,10 @@
 locale: "en-US"
-title: Gustavo Walbon # Title of your site
-url: "https://walbon.github.io/" # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog/
-google_analytics_key: ""
-
-# Default description in social shares for the jekyll-seo-tag gem
+title: Gustavo Walbon
+url: "https://walbon.github.io/"
+baseurl: ""
+google_analytics_key: "UA-108695578-1"
+comments: true
+disqus-shortname: github-walbon
 description: > # this means to ignore newlines until "baseurl:"
   Gustavo  Walbon writes somes articles to be share with you, enjoy them. :)
 
@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
 author:
   name: Gustavo Walbon
   email: 
-  twitter: gustavowalbon# twitter username without the @ symbol
+  twitter: gustavowalbon
 
 permalink: pretty
 
