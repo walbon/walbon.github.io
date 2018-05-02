@@ -181,6 +181,17 @@ and reduce the impact of flush in each context switch.
 Vulnerable
 ```
 
+## Additional patches
+### Firmware Support (powervm)
+[[8]](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8989d56878a7735dfdb234707a2fee6faf631085)
+Adding a hypervisor calling function to set up which flush it will be used.
+[[9]](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=191eccb1580939fb0d47deb405b82a85b0379070)
+Defines the parameters to be used in the hypervisor call.
+
+### Firmware Support (powernv)
+[[10]](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6e032b350cd1fdb830f18f8320ef0e13b4e24094)
+Baremetal setup for the kind of flush that it will be used.
+
 # References
 
 [[0] https://meltdownattack.com/](https://meltdownattack.com/)
@@ -202,12 +213,11 @@ https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=aa
 [[7]
 https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=bc9c9304a45480797e13a8e1df96ffcf44fb62fe](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=bc9c9304a45480797e13a8e1df96ffcf44fb62fe)
 
-firmware support (powervm)
-https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8989d56878a7735dfdb234707a2fee6faf631085
-https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=191eccb1580939fb0d47deb405b82a85b0379070
 
-firmware support (powernv)
-https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6e032b350cd1fdb830f18f8320ef0e13b4e24094
-(edited)
+[[8] https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8989d56878a7735dfdb234707a2fee6faf631085](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8989d56878a7735dfdb234707a2fee6faf631085)
+
+[[9] https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=191eccb1580939fb0d47deb405b82a85b0379070](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=191eccb1580939fb0d47deb405b82a85b0379070)
+
+[[10] https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6e032b350cd1fdb830f18f8320ef0e13b4e24094](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6e032b350cd1fdb830f18f8320ef0e13b4e24094)
 
 
