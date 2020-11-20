@@ -4,9 +4,9 @@ title: Backporting patches
 categories: Coding
 tags: kernel git suse
 year: 2018
-month: 06
-day: 01
-published: false
+month: 11
+day: 27
+published: true
 ---
 
 

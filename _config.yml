@@ -16,7 +16,7 @@ author:
 
 permalink: pretty
 
-gems:
+plugins:
   - "jekyll-feed"
   - "jekyll-seo-tag"
   - "jekyll-paginate"
