@@ -6,7 +6,7 @@ tags: kernel git suse
 year: 2018
 month: 11
 day: 27
-published: true
+published: false
 ---
 
 
