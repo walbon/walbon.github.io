@@ -1,7 +1,3 @@
-- name: Facebook
-  link: 'https://www.facebook.com/gustavowalbon'
-  social_icon: Facebook
-  new_window: true
 - name: Linkedin
   link: 'https://www.linkedin.com/in/gustavowalbon/'
   social_icon: Linkedin
