@@ -1,0 +1,42 @@
+2256a4ae8356 powerpc/rfi-flush: Call setup_rfi_flush() after LPM migration
+26c70ebbdfa4 powerpc/rfi-flush: Differentiate enabled and patched flush types
+3530d98ce546 powerpc/rfi-flush: Make it possible to call setup_rfi_flush() again
+3bf1ab8d7cef powerpc/64s: Improve RFI L1-D cache flush fallback
+6d8c56bcfd2a UBUNTU: SAUCE: rfi-flush: Move rfi_flush_fallback_area to end of paca
+4c408e3313f3 UBUNTU: SAUCE: rfi-flush: Factor out init_fallback_flush()
+2db3e543fd3f powerpc/perf: Fix IMC initialization crash
+c115386f51ba powerpc/perf: Add ___GFP_NOWARN flag to alloc_pages_node()
+fd3c934b3c6d powerpc/perf: Fix for core/nest imc call trace on cpuhotplug
+a6b9c5c75f15 powerpc/perf: Fix usage of nest_imc_refc
+e119db53068b powerpc/powernv: Fix build error in opal-imc.c when NUMA=n
+cc58a756de72 powerpc/perf/imc: Fix nest events on muti socket system
+65d58e1442c6 powerpc/perf: Fix double unlock in imc_common_cpuhp_mem_free()
+3852a897b538 powerpc/perf: Add thread IMC PMU support
+c56df39058be powerpc/perf: Add core IMC PMU support
+bcb124e9eec0 powerpc/perf: Add nest IMC PMU support
+a9305d5c2492 powerpc/powernv: Detect and create IMC device
+d2e1d697c582 powerpc/powernv: Add IMC OPAL APIs
+9421ed2a5328 crypto/nx: Add P9 NX support for 842 compression engine
+e34b4aed5bd8 crypto/nx: Add P9 NX specific error codes for 842 engine
+6a63f619b095 crypto/nx: Use kzalloc for workmem allocation
+8e177bece45c crypto/nx: Add nx842_add_coprocs_list function
+a350240b98f6 crypto/nx: Create nx842_delete_coprocs function
+120b97261b7c crypto/nx: Create nx842_configure_crb function
+deab72184618 crypto/nx: Rename nx842_powernv_function as icswx function
+8feaefcd542d powerpc/powernv/vas: Define copy/paste interfaces
+3488b3f48784 powerpc/powernv/vas: Define vas_tx_win_open()
+32c2c8324f19 powerpc/powernv/vas: Define vas_win_close() interface
+75d2a070e622 powerpc/powernv/vas: Define vas_rx_win_open() interface
+8f6e004c8c53 powerpc/powernv/vas: Define helpers to alloc/free windows
+fb8eefdc901a powerpc/powernv/vas: Define helpers to init window context
+259e0ddd426f powerpc/powernv/vas: Define helpers to access MMIO regions
+71369f7ee263 powerpc/powernv/vas: Define vas_init() and vas_exit()
+d799c495873b powerpc/powernv: Move GET_FIELD/SET_FIELD to vas.h
+4889c98f0dfb powerpc/powernv/vas: Define macros, register fields and structures
+b367978328d3 powerpc/powernv: Enable PCI peer-to-peer
+4b9f824d82c0 powerpc/powernv: Add support to set power-shifting-ratio
+957b309c5331 powerpc/powernv: Add support for powercap framework
+ec2439a3a6ef powerpc/perf: Add nest IMC PMU support
+03a7e11e310e powerpc/powernv: Detect and create IMC device
+c7ea8292303a powerpc/powernv: Add IMC OPAL APIs
+71baf23c8a5c UBUNTU: [Config] CONFIG_IBMVETH=m

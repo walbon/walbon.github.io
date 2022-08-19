@@ -1,0 +1,2 @@
+d93e5e2d03d4f41 - powerpc/64: Update Speculation_Store_Bypass in /proc/<pid>/status
+4e706af3cd8e1d0 - powerpc/security: Fix wrong message when RFI Flush is disable

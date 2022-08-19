@@ -1,0 +1,2 @@
+69559c2708294 - powerpc/security: Fix wrong message when RFI Flush is disable
+e23e24ae99cd8 - powerpc/64s: Improve RFI L1-D cache flush fallback

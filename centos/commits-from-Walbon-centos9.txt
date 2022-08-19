@@ -1,0 +1,8 @@
+- ibmvnic: fix race between xmit and reset (Gustavo Walbon) [2103085 2061556]
+- powerpc/fadump: Fix inaccurate CPU state info in vmcore generated with panic (Gustavo Walbon) [2025518]
+- powerpc: handle kdump appropriately with crash_kexec_post_notifiers option (Gustavo Walbon) [2025518]
+- cpuidle: pseries: Do not cap the CEDE0 latency in fixup_cede0_latency() (Gustavo Walbon) [2029870]
+- cpuidle: pseries: Fixup CEDE0 latency only for POWER10 onwards (Gustavo Walbon) [2029870]
+- powerpc/mce: Fix access error in mce handler (Gustavo Walbon) [2027829]
+- powerpc/pseries/mobility: ignore ibm, platform-facilities updates (Gustavo Walbon) [2023438]
+- redhat/config: Enablement of CONFIG_PAPR_SCM for PowerPC (Gustavo Walbon) [1962936]

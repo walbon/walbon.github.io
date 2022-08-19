@@ -1,0 +1,14 @@
+c960d8c99104 UBUNTU: [Config] CONFIG_IBMVETH=m
+8c5c94d0259f powerpc/powernv: Fix oops on P9 DD1 in cause_ipi()
+688d8bfd79f1 powerpc/smp: Remove migrate_irq() custom implementation
+0d125ca4b686 powerpc/powernv: Add XIVE related definitions to opal-api.h
+bc2aaa47b89c powerpc: Add more PPC bit conversion macros
+7fca9518f128 powerpc: Add optional smp_ops->prepare_cpu SMP callback
+cd450c6ddc74 powerpc/powernv: POWER9 support for msgsnd/doorbell IPI
+ae59f68cb207 powerpc/64s: Avoid a branch for ppc_msgsnd
+42a6202f6abe powerpc: Introduce msgsnd/doorbell barrier primitives
+e1221c6f3fe5 powerpc: Change the doorbell IPI calling convention
+c5742e33fa31 powerpc/xive: Native exploitation of the XIVE interrupt controller
+dd516436dd1b powerpc/xmon: Dump memory in CPU endian format
+472e27a10ffa powerpc/64s: Add SCV FSCR bit for ISA v3.0
+0c15a302f0fe powerpc/64s: Add msgp facility unavailable log string

@@ -1,0 +1,11 @@
+65e0f0066c community/emscripten-fastcomp: fix Altivec support on ppc64le                                                                
+9607aed094 community/cassandra-cpp-driver: fix build                                                                                    
+80c7996fbd main/libtheora: Fix missing library in the linker                                                                            
+1ccc4c3b29 main/libjpeg-turbo: fix build under ppc64le                                                                                  
+d0bb6f7e44 main/gcc : Remove .gnu_attribute Tag_GNU_Power_ABI_FP from libgcc                                                            
+c7cef11f89 testing/py3-yara: Enable py3-yara to support volatility3                                                                     
+c34938d415 main/xorg-server: Add dependency for xf86-video packages                                                                     
+21145b6769 main/mdocml: Patch the configure file                                                                                        
+5cfa855f4f main/bacula: Fix dependency for building standalone                                                                          
+7426c70a66 main/xvfb-run: Add coreutils as dependency to avoid missing fmt                                                              
+testing/gpm: Fix the miss of the include of sysmacros
