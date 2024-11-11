@@ -34,11 +34,15 @@ bind = split-window -v \; choose-window 'kill-pane ; join-pane -vs %%'
 ```
 ## Like a browser
 For navigation it could add the shortcuts to access the windows as in a browser ALT+Number and Shift+Arrow(Left,Right) to move through the windows.
-```# Shift arrow to switch windows
+```
+# Shift arrow to switch windows
 bind -n S-Left  previous-window
 bind -n S-Right next-window
-
+```
 # Choosing window ALT+Number like a browser
+
+
+```
 bind -n M-0 select-window -t 0
 bind -n M-1 select-window -t 1
 bind -n M-2 select-window -t 2
